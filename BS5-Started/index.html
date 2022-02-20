@@ -9,9 +9,10 @@
   <title>Páginas em BT5</title>
 </head>
 <body>
-  <div class="container-fluid p-5 bg-primary text-white text-center">
+  <div class="container-fluid p-5 bg-dark text-white text-center">
     <h1>Estudos em Bootstrap</h1>
-    <p>Trilha disponibilizada pelo W3Schools para BT5</p>
+    <p>Trilha disponibilizada pelo W3Schools para BT5.</p>
+    <p>Exemplo de container-fluid.</p>
   </div>
 
   <div class="container mt-5">
@@ -59,6 +60,66 @@
     </div>
   </div>
   </div>
+
+  <div class="container-fluid bg-dark text-white p-5 mt-5 text-center">
+    <h2>Estudos em Bootstrap</h2>
+    <p>Exemplo de container-fluid.</p>
+    <p>Container que ocupa toda a viewport.</p>
+  </div>
+  <div class="container">
+   <p>1 - Container sem parâmetro.</p>
+  </div>
+  <div class="container bg-warning text-black">
+    <p>2 - Container com <strong><code>bg-warning (background amarelo)</strong></code> e <strong><code>text-black</code></strong></p>
+  </div>
+
+  <div class="container mt-2">
+    <p>3 - Container com <strong><code>mt-2 (margin-top)</code></strong></p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <p>
+          Testando o GRID com <code>.container</code> | <code>.row</code> | <code>.col-6</code>
+        </p>
+      </div>
+      <div class="col-6">
+        <p>
+          Testando o GRID com <code>.container</code> | <code>.row</code> | <code>.col-6</code>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 bg-dark p-3 text-white text-center mb-4 text-uppercase">
+    <h3>max-width</h3>
+  </div>
+  <div class="container bg-light">
+    <p>.container irá redimensionar o max-width de acordo com os break-points específicos</p>
+    <ul>
+      <li>Extra-small = 100%</li>
+      <li>Small = sm = 540px</li>
+      <li>Medium = md = 720px</li>
+      <li>Large = lg = 960px</li>
+      <li>Extra Large = xl = 1200px</li>
+      <li>XXL =  xxl = 1320px</li>
+    </ul>
+  </div>
+</div>
+
+  <div class="col-12 text-center p-3 bg-dark text-white">
+    <h3>Responsividade dos container's</h3>
+  </div>
+
+    <div class="container bg-primary text-white text-center">
+      <div class="container-sm"><p>.container-sm</p></div>
+      <div class="container-md"><p>.container-md</p></div>
+      <div class="container-lg"><p>.container-lg</p></div>
+      <div class="container-xl"><p>.container-xl</p></div>
+      <div class="container-xxl"><p>.container-xxl</p></div>
+    </div>
+
+  
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>

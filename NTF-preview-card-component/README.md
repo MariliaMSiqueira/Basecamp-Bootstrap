@@ -2,3 +2,8 @@
 
 <div align="center"><h3>Versão sem BS</h3></div>
 
+<div align="center">
+  
+  ![](https://github.com/MariliaMSiqueira/Basecamp-Bootstrap/blob/main/NTF-preview-card-component/assets/img/layout-gif.gif)
+
+</div>

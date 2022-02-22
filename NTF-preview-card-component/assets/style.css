@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* COLOR */
+
+:root{
+  --w: #fff;
+  --cyan: hsl(178, 100%, 50%);
+  --bg-color:hsl(217, 54%, 11%);
+  --bg-card:hsl(216, 50%, 16%);
+  --soft-blue:hsl(215, 51%, 70%);
+  --line: hsl(215, 32%, 27%);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color:var(--bg-color) ;
+}
+
+/* CARD */
+/* BACKGROUND FLEX */
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+/* CARD */
+.container{
+  width: 20rem;
+  height: 36rem;
+  background-color: var(--bg-card);
+  border-radius: 10px;
+}
+
+/* CONTEÚDO CARD */
+.card-body{
+  width: 100%;
+  height: 100%;
+  padding: 1.2rem;
+}
+
+/* IMG DIV */
+.nft-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.nft-img img{
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* .nft-img img:hover{
+  width: 100%;
+  height: 280px;
+  background-image: url(./img/icon-view.svg);
+  background-repeat: no-repeat;
+} */
+
+/* IMG TITLE */
+
+.card-text .img-title{
+  width: 100%;
+  height: 100%;
+  color: var(--w);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.card-text .img-title:hover{
+  color: var(--cyan);
+}
+
+.card-text p{
+  width: 100%;
+  height: 100%;
+  color: var(--soft-blue);
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+}
+
+/* DATAS */
+.card-body .datas{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+
+.datas img:nth-child(1){
+  margin-right: 8px;
+  
+}
+
+.datas img:nth-child(2){
+  margin-right: 8px;
+  
+}
+
+.datas div:nth-child(1){
+  color: var(--w);
+  padding-left: 1rem;
+  color: var(--cyan);
+}
+
+.datas div:nth-child(2){
+  color: var(--soft-blue);
+}
+
+/* LINE */
+
+.card-body .line::after{
+  content: "";
+  margin: 20px auto;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid var(--line);
+}
+
+/* USER IMG AVATAR */
+
+.card-body .user-datas{
+  width: 100%;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+
+}
+
+.card-body .user-datas img{
+  width: 18%;
+  border: 1px solid var(--w);
+  border-radius: 50%;
+}
+
+.card-body .user-datas p{
+  margin-left: 1.5rem;
+  color: var(--soft-blue);
+}
+
+.card-body .user-datas a{
+  text-decoration: none;
+  color: var(--w);
+  cursor: pointer;
+  transition: .5s;
+}
+
+.card-body .user-datas a:hover{
+ color: var(--cyan);
+}

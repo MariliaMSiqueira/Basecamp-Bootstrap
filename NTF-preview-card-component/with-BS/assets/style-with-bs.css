@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* COLOR */
+:root{
+  --w: #fff;
+  --cyan: hsl(178, 100%, 50%);
+  --bg-color:hsl(217, 54%, 11%);
+  --bg-card:hsl(216, 50%, 16%);
+  --soft-blue:hsl(215, 51%, 70%);
+  --line: hsl(215, 32%, 27%);
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* BACKGROUND */
+body {
+  height: 100vh;
+  width: 100%;
+}
+.container-fluid{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.container{
+  height: 100vh;
+}
+
+.row{
+  height: 100vh;
+}
+
+/* CARD */
+
+
+#card .container .col-sm-6{
+  width: 100%;
+  background-color: var(--bg-card);
+  border-radius: 10px;
+}
+
+/* NFT IMAGE */
+
+.nft-img img{
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* TITLE IMG */
+
+#card .container .title-img{
+  width: 100%;
+  color: var(--w);
+  font-size: 1.5rem;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#card .container .title-img:hover{
+  color: var(--cyan);
+}
+
+/* DESC IMG */
+
+#card .container .desc-img{
+  width: 100%;
+  color: var(--soft-blue);
+  font-size: 1.1rem;
+  font-weight:300;
+
+}
+
+/* DATAS PRICE AND CLOCK */
+/* PRICE */
+#card .container .datas{
+  width: 100%;
+  padding: 0 16px;
+}
+
+#card .container .datas .price > span{
+  color: var(--cyan);
+  margin-left: 10px;
+  
+}
+
+/* CLOCK */
+
+#card .container .datas .clock > span{
+  color: var(--soft-blue);
+  margin-left: 10px;
+}
+
+/* LINE */
+
+#card .container .text-content .line::after{
+  content: "";
+  margin: 20px auto;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid var(--line);
+  }
+ 
+  /* USER DATAS */
+  /* PHOTO PROFILE */
+
+  #card .container .user-datas .profile {
+    margin-bottom: 20px;
+  }
+
+  #card .container .user-datas .profile img{
+    width: 20%;
+    border: 1px solid var(--w);
+    border-radius: 50%;
+    margin: 0 20px ;
+  }
+
+  #card .container .user-datas .profile span{
+    color: var(--soft-blue);
+  }
+
+  #card .container .user-datas .profile a{
+    text-decoration: none;
+    color: var(--w);
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  #card .container .user-datas .profile a:hover{
+    color: var(--cyan);
+  }
+

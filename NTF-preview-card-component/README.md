@@ -4,6 +4,6 @@
 
 <div align="center">
   
-  ![](https://github.com/MariliaMSiqueira/Basecamp-Bootstrap/blob/main/NTF-preview-card-component/assets/img/layout-gif.gif)
+  ![](https://github.com/MariliaMSiqueira/Basecamp-Bootstrap/blob/main/NTF-preview-card-component/layout-gif.gif)
 
 </div>

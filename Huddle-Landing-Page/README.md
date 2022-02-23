@@ -3,11 +3,12 @@
 <div align="center"><h3>O Projeto 💻</h3></div>
 
 <div align="center">
-  <h2>Desktop </h2>
+  <h4>Desktop </h4>
+  
   ![](https://github.com/MariliaMSiqueira/Basecamp-Bootstrap/blob/main/Huddle-Landing-Page/layout-desktop.JPG);
 
 
-<h2> Mobile </h2>
+<h4> Mobile </h4>
 
 ![](https://github.com/MariliaMSiqueira/Basecamp-Bootstrap/blob/main/Huddle-Landing-Page/layout-mobile.JPG);
 

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+
+/* COLOR */
+
+:root{
+  --violet:hsl(257, 40%, 49%);
+  --soft-magenta:hsl(300, 69%, 71%);
+  --a-color:hsl(228, 45%, 44%);
+  --w:#fff;
+}
+
+/* GERAL */
+
+.container-fluid{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--violet);
+  padding: 0;
+  
+  
+}
+
+.navbar-brand > img{
+  width: 100px;
+}
+
+/* BG IMG */
+
+.container-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/bg-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+/* MOCKUP ILLUSTRATION */
+
+.img-main .mockups {
+  width: 100%;
+  padding: 0 auto;
+}
+
+.img-main{
+  padding: 0 30px;
+
+}
+.img-main > img {
+  width: 100%;
+}
+
+/* CONTENT */
+
+.container-content {
+  width: 100%;
+  color: var(--w);
+}
+
+/* MAIN TITLE */
+.container-content .main-title p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* TEXT DESC */
+
+.container-content .des-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/* REGISTER BTN */
+
+.container-content .sign-btn{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: var(--violet);
+  box-shadow: 2px 4px 23px -3px rgba(0, 0, 0, 0.521);
+  -webkit-box-shadow: 2px 4px 23px -3px rgba(0, 0, 0, 0.521);
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.container-content .icon-social ion-icon{
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.container-content .icon-social ion-icon:hover{
+  color: var(--soft-magenta);
+}
+
+/* .row{
+  height: 100vh;
+} */
+
+/* RESPONSIVE */
+
+@media(min-width: 760px){
+
+  /* BG */
+  .container-bg{
+    background-image: url(img/bg-desktop.svg);
+    background-size: contain;
+  }
+  /* LOGO */
+  .navbar-brand {
+    width: 100%;
+    
+  }
+  .navbar-brand > img {
+    width: 250px;
+    margin-bottom: 50px;
+    margin: auto 0;
+    padding: 0 20px;
+  }
+
+  /* MAIN IMG */
+
+
+  .container-content {
+    text-align: left;
+  }
+  .container-content .main-title p{
+    font-size: 1.3rem;
+
+  }
+
+  .container-content .main-title p::after{
+    content: "";
+    display: block;
+    border: 1px solid var(--soft-magenta);
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .container-content .des-text p{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+}
